@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bing2YoutubeURL", "Bing2YoutubeURL\Bing2YoutubeURL.csproj", "{50756E55-2FEA-4D67-986A-05866202B39C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50756E55-2FEA-4D67-986A-05866202B39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50756E55-2FEA-4D67-986A-05866202B39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50756E55-2FEA-4D67-986A-05866202B39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50756E55-2FEA-4D67-986A-05866202B39C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB599868-6B5D-4717-AC92-81B4C1F97AB6}
+	EndGlobalSection
+EndGlobal

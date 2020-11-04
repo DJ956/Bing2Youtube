@@ -1,0 +1,12 @@
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\bin\Debug\Bing2YoutubeURL.exe.config
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\bin\Debug\Bing2YoutubeURL.exe
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\bin\Debug\Bing2YoutubeURL.pdb
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\bin\Debug\WebDriver.dll
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\bin\Debug\WebDriver.Support.dll
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\bin\Debug\WebDriver.xml
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\bin\Debug\WebDriver.Support.xml
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2YoutubeURL.csprojAssemblyReference.cache
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2YoutubeURL.csproj.CoreCompileInputs.cache
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2YoutubeURL.csproj.CopyComplete
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2YoutubeURL.exe
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2YoutubeURL.pdb

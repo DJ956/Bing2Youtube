@@ -1,0 +1,16 @@
+[1104/193344.830:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1104/193344.831:ERROR:exception_snapshot_win.cc(99)] thread ID 5132 not found in process
+[1104/193344.863:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1104/193344.863:ERROR:exception_snapshot_win.cc(99)] thread ID 11580 not found in process
+[1104/193843.140:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1104/193843.140:ERROR:exception_snapshot_win.cc(99)] thread ID 15196 not found in process
+[1104/193843.173:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1104/193843.173:ERROR:exception_snapshot_win.cc(99)] thread ID 2592 not found in process
+[1104/194822.863:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1104/194822.864:ERROR:exception_snapshot_win.cc(99)] thread ID 15528 not found in process
+[1104/194822.896:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1104/194822.896:ERROR:exception_snapshot_win.cc(99)] thread ID 16776 not found in process
+[1104/194828.487:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1104/194828.488:ERROR:exception_snapshot_win.cc(99)] thread ID 11928 not found in process
+[1104/194828.518:ERROR:process_reader_win.cc(123)] NtOpenThread: {アクセス拒否} プロセスはオブジェクトのアクセスを要求しましたが、アクセス権が与えられていません。 (0xc0000022)
+[1104/194828.518:ERROR:exception_snapshot_win.cc(99)] thread ID 844 not found in process
