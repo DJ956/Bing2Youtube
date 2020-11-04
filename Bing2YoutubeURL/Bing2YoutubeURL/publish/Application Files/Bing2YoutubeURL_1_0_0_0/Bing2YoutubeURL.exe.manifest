@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Bing2YoutubeURL.exe" version="1.0.0.0" publicKeyToken="5436721e12502783" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Bing2YoutubeURL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Bing2YoutubeURL.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC マニフェスト オプション
+          Windows のユーザー アカウント制御のレベルを変更するには、
+          requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         下位互換性を保つためにファイルおよびレジストリの仮想化を使用する場合、
+         requestedExecutionLevel ノードを削除します。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bing2YoutubeURL.exe" size="8672">
+      <assemblyIdentity name="Bing2YoutubeURL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rzlgwcVR+0xA5flY47P2LFkHmxb8f1WCJ1RBRiFLtVE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebDriver.dll" size="1783808">
+      <assemblyIdentity name="WebDriver" version="3.141.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DuYZsXhs9ZccD5xu4YWUl67LqTpJU8+S/qmY6O763zw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebDriver.Support.dll" size="52224">
+      <assemblyIdentity name="WebDriver.Support" version="3.141.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tZun0M/+Q+cisTrXN89ZbwMHiLhrW1V8tHnwtpV8zoo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Bing2YoutubeURL.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-6QG0VKK\dexte" issuerKeyHash="3dd719b8f531330849830c2847175220694965cb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7zjtkiO5hshLd3XOLcPwlt+ao/xGi5oHRmwCKWca7kw=</DigestValue></Reference></SignedInfo><SignatureValue>k4bQ4OThO4c2t73DrMd13y1QUxip645PrcpXpgMkP//fZLVzzWAJluVSdiSvDq/Qf9JrA/yWR45oFtM0EsLPAmNsn2umePtIsiJ9nbt71NTz7tCZAHX2XzMEGE3o0K+Xi/EBziLr9V4sFMU4Jd6un+b6ncVaow2Elv5CZZDKjjk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1RkWYkx6W+vwehe4RmWyGw+VsS3ll9UX4pHlcpOtDACwHP3o1rtriBj++nCbApEgbdrJkbaUbUXD0Fn3nzNO5DnMPvMjQ2X+3pIt4OvymW9jbaLyRpnVV+IboYJuBQAGHzbzfncCIGDfMBaUdym1cqd6qMmrKTzlvZqHl/5ITxE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4cee1a6729026c46079a8b46fca39adf96f0c32dce75774bc886b92392ed38ef" Description="" Url=""><as:assemblyIdentity name="Bing2YoutubeURL.exe" version="1.0.0.0" publicKeyToken="5436721e12502783" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-6QG0VKK\dexte</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ek0DQ9LlqgRhOeNo5N18IsPZD2psrmVkPOGATWZsciw=</DigestValue></Reference></SignedInfo><SignatureValue>KPbEfw+7v0fZi4AMjfklkaOKvN580KbHgieRyyHdrS5bqi2NUCv+IJ2oWfUaNmmYATkj+S9YGX6mFwBONYuLDHuYOMoj5PVk7J1RWwswpL4Eia33+evOzDGQWVClB8ejI++5ZtzIZllZDDHYZ6/aFmHqkfoND40hatlMbRhF14M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1RkWYkx6W+vwehe4RmWyGw+VsS3ll9UX4pHlcpOtDACwHP3o1rtriBj++nCbApEgbdrJkbaUbUXD0Fn3nzNO5DnMPvMjQ2X+3pIt4OvymW9jbaLyRpnVV+IboYJuBQAGHzbzfncCIGDfMBaUdym1cqd6qMmrKTzlvZqHl/5ITxE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYTiYSYEV7aBJJMrdav1OLTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAUQBHADAAVgBLAEsAXABkAGUAeAB0AGUwHhcNMjAxMTA0MTExMzA3WhcNMjExMTA0MTcxMzA3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAUQBHADAAVgBLAEsAXABkAGUAeAB0AGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANUZFmJMelvr8HoXuEZlshsPlbEt5ZfVF+KR5XKTrQwAsBz96Na7a4gY/vpwmwKRIG3ayZG2lG1Fw9BZ958zTuQ5zD7zI0Nl/t6SLeDr8plvY22i8kaZ1VfiG6GCbgUABh828353AiBg3zAWlHcptXKneqjJqyk85b2ah5f+SE8RAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAOZOZaUSXV/lkIF+kukgy+ZOk/Wbr3DRaQoMd13B177HwAIexcMH+0ZfpoVRdorlSAMqqCk6Nv0GJYyNvSzOvL1jjSw445X8eR7bUtHfOf9R+9mXXWqyq+hwFWnw6Tvmz8DvXAU5gtM6/QFUjK0VDvzREesHeVC9N3UUP+997qpk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

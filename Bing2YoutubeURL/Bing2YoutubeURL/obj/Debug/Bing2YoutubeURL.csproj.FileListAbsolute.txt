@@ -10,3 +10,7 @@ D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2Y
 D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2YoutubeURL.csproj.CopyComplete
 D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2YoutubeURL.exe
 D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2YoutubeURL.pdb
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\bin\Debug\Bing2YoutubeURL.exe.manifest
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\bin\Debug\Bing2YoutubeURL.application
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2YoutubeURL.exe.manifest
+D:\Document\Github\Bing2Youtube\Bing2YoutubeURL\Bing2YoutubeURL\obj\Debug\Bing2YoutubeURL.application

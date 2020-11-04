@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
-using System.Threading;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
 
 namespace Bing2YoutubeURL
 {
@@ -42,6 +39,8 @@ namespace Bing2YoutubeURL
 
         private static string ConvertYoutube(IWebDriver driver, string bingUrl)
         {
+            if (bingUrl.Contains(YOUTUBE_LINK)) return bingUrl;
+
             driver.Navigate().GoToUrl(bingUrl);
 
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
@@ -76,18 +75,23 @@ namespace Bing2YoutubeURL
             }
         }
 
+        [STAThread]
         static void Main(string[] args)
         {
-            if(args.Length != 2)
-            {
-                Console.WriteLine("Usage:Bing2YoutubeURL.exe urlsrc dst");
-                return;
-            }
+            var openFileDialog = new OpenFileDialog();
+            openFileDialog.Title = "URLリスト読み込み";
+            openFileDialog.Filter = "URLリスト(*.tx)|*.txt";
+            if (openFileDialog.ShowDialog() != DialogResult.OK) return;            
 
-            var urls = LoadBing(args[0]);
-            var dst = args[1];
-            //var urls = LoadBing(@"C:\Users\dexte\Downloads\sample.txt");
-            //var dst = "./dst.txt";
+            var saveFileFialog = new SaveFileDialog();
+            saveFileFialog.Title = "変換URLリストの保存先";
+            saveFileFialog.Filter = "URLリスト(*.tx)|*.txt";
+            if (saveFileFialog.ShowDialog() != DialogResult.OK) return;
+
+            var src = openFileDialog.FileName;
+            var dst = saveFileFialog.FileName;
+
+            var urls = LoadBing(src);
 
 
             var results = new List<string>();
